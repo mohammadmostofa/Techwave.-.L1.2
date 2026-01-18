@@ -1,0 +1,32 @@
+
+/* mobile Device responsive */
+@media screen and (min-width:0px)  and (max-width:576px)  {
+
+  .mobile_none{
+    display: none;
+  }
+  
+}
+
+
+/* tab device responsive */
+
+
+@media screen and (min-width:576.2px) and (max-width:992px) {
+.tab_none{
+    display: none;
+  }
+  
+  
+}
+
+
+/* full width Device responsive */
+
+@media screen and (min-width:992.2px) and (max-width:2000px) {
+.dektop_none{
+    display: none;
+  }
+  
+  
+}
