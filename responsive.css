@@ -6,6 +6,13 @@
     display: none;
   }
 
+
+  /* mobile_navbar */
+
+  .mobile_navbar{
+    padding: 1rem .4rem;
+  }
+
   /* .Extra_feature */
   .Extra_feature{
     left: 11rem;
@@ -31,6 +38,26 @@
 }
 
 
+/* techwave */
+.tech_container{
+  display: grid;
+  grid-template-columns: repeat(1 , 1fr);
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.box_1 ,  .box_5{
+  grid-row: span 1;
+  
+}
+
+.box_2 , .box_3 , .box_4 {
+   grid-column: span 1;
+}
+
+
 }
 
 
@@ -40,6 +67,10 @@
 @media screen and (min-width:576.2px) and (max-width:992px) {
 .tab_none{
     display: none;
+  }
+
+  .mobile_navbar{
+    padding: 1rem .4rem;
   }
   
 
@@ -51,6 +82,30 @@
 .blog{
   padding: .5rem;
 }
+
+
+/*  */
+
+.tech_container{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.box_1 ,  .box_5{
+  grid-row: span 1;
+  
+}
+
+.box_2 , .box_3 , .box_4 {
+   grid-column: span 1;
+}
+
+
+
   
 }
 

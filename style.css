@@ -23,6 +23,7 @@
   --primary-color: #1A0B2E;
   --secondary-color: #412567;
   --third-color:#00FF88;
+  --fourth-color:#230E3D;
 }
 
 
@@ -416,10 +417,104 @@
 
 
 
-
-
 .blog p{
   font-size: 1.2rem;
   font-weight: normal;
   line-height: 2rem;
+}
+
+/* techwave_section */
+
+.techwave_section{
+  margin: 0 auto;
+  /* background-color: var(--fourth-color); */
+}
+
+
+/* tech_container */
+
+.tech_section{
+  background-color: var(--primary-color);
+  
+  
+}
+
+.tech{
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+
+.tech h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tech_container{
+  display: grid;
+  grid-template-columns: repeat(3 ,280px);
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+
+
+
+.box_1{
+  grid-row: span 2;
+  
+  
+}
+
+.box_2{
+  grid-column: span 2;
+  border: 1px solid white;
+  
+}
+
+.box_3{
+  grid-column: span 2;
+ 
+}
+.box_4{
+  grid-column: span 2;
+  
+}
+
+.box_5{
+  border: 1px solid white;
+  
+}
+
+
+
+.box{
+
+  border: 1px solid white;
+  background-color: var(--fourth-color);
+  color: wheat;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgb(65, 37, 103);
+}
+
+.box h4{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.box p{
+  color: white;
+  font-weight: 400;
 }
