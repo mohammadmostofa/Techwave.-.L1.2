@@ -10,7 +10,27 @@
   .Extra_feature{
     left: 11rem;
   }
-  
+
+  /* .about_container h2 */
+  .about_container h2{
+    font-size: 2.3em;
+  }
+
+  .about_content{
+    max-width: 80%;
+  }
+
+  /* .blog_main */
+.blog_main{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.blog{
+  padding: .4rem;
+}
+
+
 }
 
 
@@ -22,6 +42,15 @@
     display: none;
   }
   
+
+  .blog_main{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog{
+  padding: .5rem;
+}
   
 }
 
