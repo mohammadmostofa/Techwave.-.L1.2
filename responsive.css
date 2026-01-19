@@ -5,6 +5,11 @@
   .mobile_none{
     display: none;
   }
+
+  /* .Extra_feature */
+  .Extra_feature{
+    left: 11rem;
+  }
   
 }
 
