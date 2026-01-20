@@ -64,6 +64,31 @@
   padding: 1rem  2rem;
 }
 
+
+/* meet_container */
+
+.meet_container{
+  margin: 2rem 1.9rem;
+  column-gap: 2rem;
+  background-color: #351165;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  column-gap: .4rem;
+
+}
+
+.meet_content{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.meet_icons{
+  gap: .4rem;
+}
+
 }
 
 
@@ -122,7 +147,17 @@
 }
 
 
+.meet_container{
+  margin: 2rem 1.9rem;
+  column-gap: 2rem;
+  background-color: #351165;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: start;
+  padding: 3rem 1rem;
+  column-gap: .4rem;
 
+}
 
 
   
